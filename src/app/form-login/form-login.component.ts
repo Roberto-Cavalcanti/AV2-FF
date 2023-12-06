@@ -4,7 +4,9 @@ import { LoginService } from './login.service';
 
 @Component({
   selector: 'app-form-login',
-  templateUrl: './form-login.component.html'
+  templateUrl: './form-login.component.html',
+  styleUrls: ['./form-login.component.css'] 
+
 })
 export class FormLoginComponent {
   autenticado: boolean = false;

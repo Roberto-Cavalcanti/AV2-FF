@@ -1,0 +1,23 @@
+.bem-vindo-container {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+.bem-vindo-container p {
+    color: #333;
+}
+
+.bem-vindo-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.bem-vindo-container button:hover {
+    background-color: #0056b3;
+}

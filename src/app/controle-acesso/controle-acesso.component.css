@@ -1,0 +1,35 @@
+#controleAcesso {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4285f4;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #3367d6;
+  }
+  
+  div[id^="admin"],
+  div[id^="colab"],
+  div[id^="user"] {
+    display: none;
+    margin-top: 20px;
+  }
+
+
+  

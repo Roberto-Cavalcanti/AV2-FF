@@ -8,7 +8,7 @@
     <br>
     <label for="senha">Senha:</label><br>
     <input type="password" id="senha" [(ngModel)]="senha" /><br><br>
-    <div [ngStyle]="{'background-color': this.mensagem != 'Olá, informe os campos corretamente.' ? '#66FF99': '#FFCCCB'}" >{{mensagem}}</div>
+    <div [ngStyle]="{'background-color': mensagem !== 'Olá, informe os campos corretamente.' ? '#fff' : '#FFCCCB', 'border': 'none'}">{{mensagem}}</div>
     <br>
     <button (click)="validaCadastro()">Fazer Cadastro</button>
   </div>

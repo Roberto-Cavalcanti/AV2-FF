@@ -1,0 +1,24 @@
+.componente-filho {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #ffffff; 
+  }
+  
+  .componente-filho h3 {
+    color: #4285f4;
+  }
+  
+  .componente-filho ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .componente-filho li {
+    background-color: #f2f2f2; 
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }

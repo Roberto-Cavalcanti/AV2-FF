@@ -4,7 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-form-cadastro',
   templateUrl: './form-cadastro.component.html',
   styleUrls: ['./form-cadastro.component.css'] 
-
 })
 export class FormCadastroComponent {
   nome: string = '';
@@ -13,21 +12,19 @@ export class FormCadastroComponent {
   mensagem: string = '';
 
   validaCadastro(){
-
-    const validacao = this.nome != '' && this.email != '' && this.senha != '';
+    const validacao = this.nome !== '' && this.email !== '' && this.senha !== '';
 
     if(validacao){
-      this.mensagem = `Olá, ${this.nome}, seu cadastro foi realizado com sucesso.`;
-      this.ResetCampos()
+      this.mensagem = `Cadastro feito corretamente. Olá, ${this.nome}, seu cadastro foi realizado com sucesso.`;
+      this.ResetCampos();
     } else {
-      this.mensagem = `Olá, informe os campos corretamente.`
+      this.mensagem = 'Erro ao cadastrar. Por favor, informe todos os campos corretamente.';
     }
   }
 
   ResetCampos (){
-    this.nome = ''
-    this.email = ''
-    this.senha = ''
+    this.nome = '';
+    this.email = '';
+    this.senha = '';
   }
-
 }
